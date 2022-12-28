@@ -21,7 +21,7 @@ concurrency:
 jobs:
   version:
     name: Versioning
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     outputs:
       jitsi_version_major: ${{ steps.parse.outputs.jitsi_version_major }}
       jitsi_version_minor: ${{ steps.parse.outputs.jitsi_version_minor }}
