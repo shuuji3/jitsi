@@ -60,7 +60,7 @@ jobs:
 
   deb:
     name: ${{ matrix.dist.vendor }} ${{ matrix.dist.dist }} ${{ matrix.arch }}
-    runs-on: 20.04
+    runs-on: ubuntu-20.04
     needs:
       - version
     strategy:
